@@ -1,0 +1,25 @@
+{
+  "name": "angular-ganalytics",
+  "version": "0.1.0",
+  "main": "angular-ganalytics.js",
+  "authors": [
+    "Emir Herrera <emir.herrera@imco.org.mx>"
+  ],
+  "description": "Google Analytics for AngularJS. Tracks every single view instead of just the main index.html",
+  "keywords": [
+    "analytics",
+    "tracking"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emirhg/angular-ganalytics"
+  }
+}
