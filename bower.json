@@ -1,6 +1,6 @@
 {
   "name": "angular-ganalytics",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "angular-ganalytics.js",
   "authors": [
     "Emir Herrera <emir.herrera@imco.org.mx>"
