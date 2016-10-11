@@ -32,6 +32,7 @@ angular.module('analytics',[])
 
 
 		$rootScope.$on('$viewContentLoaded', function() {
-			$window.ga('send', 'pageview', $location.path());
+			var page = $location.absUrl().replace(new RegExp("(https?://)?"+$location.host()+"(:"+$location.port()+")?"), "");
+			$window.ga('send', 'pageview', page);
 		});
 	});
