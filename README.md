@@ -1,5 +1,6 @@
 # angular-ganalytics
-Google Analytics for AngularJS. Tracks every single view instead of just the main index.
+Google Analytics interaction for AngularJS.
+Tracks every single view instead of just the main index. It also tracks file downloads.
 
 ## Installation
 
