@@ -40,7 +40,7 @@ angular.module('analytics',[])
 			jQuery(document).ready(function($) {
 
 
-				var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
+				var filetypes = /\.(zip|exe|pdf|docx?|xlsx?|pptx?|mp3)$/i;
 				var baseHref = '';
 				if (jQuery('base').attr('href') != undefined)
 				baseHref = jQuery('base').attr('href');
