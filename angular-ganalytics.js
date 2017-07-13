@@ -36,10 +36,6 @@ angular.module('analytics',[])
 	$rootScope.$watch(function () {
 		return document.body.innerHTML;
 	}, function(val) {
-
-		//$rootScope.trackCode.setTrackingCode('UA-4404650-1');
-		//console.log("TRACKING WATCH");
-		//TODO: write code here, slit wrists, etc. etc.
 		if (typeof jQuery != 'undefined') {
 			jQuery(document).ready(function($) {
 
