@@ -10,8 +10,6 @@ angular.module('analytics',[])
 	var trackingCode;
 	this.setTrackingCode = function (ua){
 		trackingCode = ua;
-		console.log(trackingCode);
-
 	};
 
 	this.$get = function(){
